@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	//HOT DOG
-	//UNCOMMENT THIS TO RUN HOT DOT
+	//UNCOMMENT BELOW TO RUN HOT DOT
 	//wordDict := []string{"hot", "dot", "dog", "lot", "log"}
 	//
 	//fmt.Println(hotDog(wordDict, "hit", "dig"))
@@ -18,20 +18,21 @@ func main() {
 	//}
 
 	//PERFECT TWO
-	//UNCOMMENT THIS TO RUN
+	//UNCOMMENT BELOW TO RUN
 	//arr := []int{2, 7, 11, 15}
-	//fmt.Println(perfectTwo(arr, 19))
+	//fmt.Println(perfectTwo(arr, 9))
 
 	//PALINDROME TERBESAR
-	//fmt.Println(palindromeTerbesar(4))
+	//UNCOMMENT BELOW TO RUN
+	//fmt.Println(palindromeTerbesar(2))
 
 	//JUAL BELI SAHAM
-	//UNCOMMENT THIS TO RUN
+	//UNCOMMENT BELOW TO RUN
 	//arr := []int{10, 15, 8, 7, 14}
 	//
 	//fmt.Println(jualBeliSaham(arr))
 
 	//ANGKA AJAIB
 	//UNCOMMENT BELOW TO RUN
-	fmt.Println(angkaAjaib("3124"))
+	fmt.Println(angkaAjaib("9875"))
 }
