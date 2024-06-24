@@ -19,6 +19,9 @@ func main() {
 
 	//PERFECT TWO
 	//UNCOMMENT THIS TO RUN
-	arr := []int{2, 7, 11, 15}
-	fmt.Println(perfectTwo(arr, 19))
+	//arr := []int{2, 7, 11, 15}
+	//fmt.Println(perfectTwo(arr, 19))
+
+	//PALINDROME TERBESAR
+	fmt.Println(palindromeTerbesar(4))
 }
