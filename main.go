@@ -3,7 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	wordDict := []string{"hot", "dot", "dog", "lot", "log"}
+	//HOT DOG
 
-	fmt.Println(hotDog(wordDict, "hit", "dig"))
+	//UNCOMMENT THIS TO RUN HOT DOT
+	//wordDict := []string{"hot", "dot", "dog", "lot", "log"}
+	//
+	//fmt.Println(hotDog(wordDict, "hit", "dig"))
+
+	//PROGRAMMER
+
+	//UNCOMMENT THIS TO RUN PROGRAMMER
+	wordDict := []string{"pro", "gram", "merit", "program", "it", "programmer"}
+	output := wordBreak("programmerit", wordDict)
+	for _, way := range output {
+		fmt.Println(way)
+	}
 }
