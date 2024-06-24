@@ -23,5 +23,15 @@ func main() {
 	//fmt.Println(perfectTwo(arr, 19))
 
 	//PALINDROME TERBESAR
-	fmt.Println(palindromeTerbesar(4))
+	//fmt.Println(palindromeTerbesar(4))
+
+	//JUAL BELI SAHAM
+	//UNCOMMENT THIS TO RUN
+	//arr := []int{10, 15, 8, 7, 14}
+	//
+	//fmt.Println(jualBeliSaham(arr))
+
+	//ANGKA AJAIB
+	//UNCOMMENT BELOW TO RUN
+	fmt.Println(angkaAjaib("3124"))
 }
